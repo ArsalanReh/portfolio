@@ -1,0 +1,368 @@
+body{
+  margin: 0;
+padding: 0;
+}
+.hero {
+display: block;
+box-sizing: border-box;
+height: 500px;
+background-color: #5050ee;
+clip-path: ellipse(85% 130% at 50% 0%);
+}
+.head{
+	padding-top: 1rem;
+}
+.nav-link{
+	color: #000;
+	font-size: 1rem;
+	justify-content:space-between;
+    padding: 0 1rem;
+    margin: 0 1rem;
+	transition: 0.5s;
+}
+.nav-link:hover {
+   color: #FAA61A;
+  border: 0.1rem solid;
+  border-radius: 0.4rem ;
+
+}
+.active{
+	color: #FAA61A;
+  border: 0.1rem solid;
+  border-radius: 0.4rem ;
+}
+.aa{
+
+	font-family: 'Rubik Beastly', cursive;
+  justify-content: center;
+  text-align: center;
+  margin-top: 7rem;
+
+
+}
+.aaa{
+  justify-content: center;
+  text-align: center;
+  padding: 0 3rem;
+
+}
+.features{
+	padding-top: 3rem;
+	justify-content: center;
+	text-align: center;
+}
+.icon{
+	color: blue;
+}
+.icon:hover{
+	color: #FBB747;
+}
+.record{
+  padding: 100px;
+  color: #FBB747;
+  background-color:  #5050ee;
+
+  text-align: center;
+  font-weight: bold;
+}
+.academic-record{
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.price-col{
+  padding: 1rem 1rem;
+}
+.card:hover{
+ background-color:#e3f2fd;
+ transition: 0.5s;
+}
+.half-bg{
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+.circle{
+	padding-top: 3rem;
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 1rem;
+
+}
+.award{
+  padding-top: 2rem;
+  text-align:center;
+  justify-content: center;
+}
+.cad-holder {
+  margin:  0;
+}
+.sss{
+ left:2rem;
+}
+.cad {
+  font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+  font-size: 3em;
+  font-weight: 800;
+  height: 4em;
+  width: 64em;
+  padding: 0.5em 1em;
+
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.cad .subtle {
+  color: #000;
+  font-size: 0.5em;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.cad i {
+  font-size: 3em;
+}
+.bg-germany {
+    color: #000;
+    background: -webkit-linear-gradient(110deg, #fdcd3b 33%, rgba(0, 0, 0, 0) 33%), -webkit-linear-gradient(110deg, #e3f2fd 66%, #ffc608 66%);
+    background: -o-linear-gradient(110deg, #fdcd3b 33%, rgba(0, 0, 0, 0) 33%), -o-linear-gradient(110deg, #e3f2fd 66%, #ffc608 66%);
+    background: -moz-linear-gradient(110deg, #fdcd3b 33%, rgba(0, 0, 0, 0) 33%), -moz-linear-gradient(110deg, #e3f2fd 66%, #ffc608 66%);
+    background: linear-gradient(110deg, #fdcd3b 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #e3f2fd 66%, #ffc608 66%);
+}
+
+
+
+.bg-germany::skills {
+
+  position:absolute;
+  margin-left: 20%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.skill-info{
+  background:linear-gradient(110deg, #fdcd3b 60%,  #e3f2fd 60%);
+}
+.skills-bar {
+  padding: 25px 30px;
+}
+
+.skills-bar .bar {
+  margin: 25px 0;
+}
+
+.skills-bar .bar .info span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.skills-bar .bar .info {
+  margin-bottom: 8px;
+  color: #07374a;
+}
+
+.skills-bar .bar .progress-line {
+  position: relative;
+  height: 10px;
+  width: 550px;
+  background: #545454;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span {
+  position: absolute;
+  background: #25b79f;
+  height: 100%;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.progress-line .html {
+  width: 80%;
+}
+.progress-line .css {
+  width: 70%;
+}
+.progress-line .bootstrap {
+  width: 50%;
+}
+.progress-line .javascript {
+  width: 42%;
+}
+.progress-line .c {
+  width: 29%;
+}
+
+.bar .progress-line span::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  right: 0;
+  top: -14px;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-style: #fff;
+  border-top-color: #07374a;
+}
+
+.bar .progress-line span::after {
+  position: absolute;
+  right: 0;
+  top: -28px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  background: #07374a;
+  padding: 1px 8px;
+  border-radius: 3px;
+}
+
+
+.progress-line .html::after {
+  content: "80%";
+}
+.progress-line .css::after {
+  content: "70%";
+}
+.progress-line .bootstrap::after {
+  content: "52%";
+}
+.progress-line .javascript::after {
+  content: "42%";
+}
+.progress-line .c::after {
+  content: "35%";
+}
+.soft{
+  background-color: #ffc608;
+}
+.cc{
+  background-color:#e3f2fd;
+}
+.foot{
+  background: #5050ee;
+}
+.flix{
+     display:flex;
+     justify-content: center;
+}
+.up{
+  font-size: 4rem;
+	text-align: right;
+	color:#FAA61A ;
+ float: right !important;
+}
+.social-i{
+
+	margin: 0 0 1rem 1rem;
+	float: right !important;
+	font-size: 1.5rem;
+	color:#FAA61A  ;
+}
+.social-i:hover{
+	color:#0066ff;
+}
+
+/* login code */
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle{
+  border-radius: 0;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+@media (max-width:1028px) {
+ 
+  .head{
+   justify-content: center;
+   text-align: center;
+   overflow: auto;
+   margin-top: 0;
+     padding-top: 0;
+ }
+
+ .nav-link:hover {
+  color: #FAA61A;
+  border: none;
+  overflow:auto;
+
+
+}
+.active{
+ color: #FAA61A;
+ border: none;
+
+}
+ .txt{
+ padding-top: 3rem;
+ padding-left: .2rem;
+ padding-bottom: 1rem;
+}
+.bg-colorr{
+   text-align: center;
+   justify-content: center;
+   box-sizing: border-box;
+   overflow: auto;
+
+
+ }
+ .bg{
+   padding: 0;
+ }
+ .aa{
+   margin-top: 0.1rem;
+ }
+
+
+  .aaa{
+    justify-content: center;
+    text-align: center;
+    padding: 0 -1rem;
+    padding-bottom: -1rem;
+  }
+
+  .skills{
+        width: 80%;
+    }
+
+    .skills-bar .bar .progress-line{
+        width: 100%;
+    }
+
+
+}
